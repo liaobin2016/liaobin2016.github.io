@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/09/myblog/</loc>
+    <lastmod>2016-04-09T10:25:31.417Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 使用记录</title>
+        <pubTime>2016-04-09T06:27:53.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/09/hello-world/</loc>
+    <lastmod>2016-04-09T06:18:54.355Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-04-09T06:18:54.355Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
