@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-23T09:46:31.385Z</updated>
+  <updated>2016-04-23T09:48:16.752Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,11 +20,9 @@
     <link href="http://yoursite.com/2016/04/23/log_best_practice/"/>
     <id>http://yoursite.com/2016/04/23/log_best_practice/</id>
     <published>2016-04-23T09:38:44.109Z</published>
-    <updated>2016-04-23T09:46:31.385Z</updated>
+    <updated>2016-04-23T09:48:16.752Z</updated>
     
-    <content type="html">&lt;blockquote&gt;
-&lt;h1 id=&quot;最佳日志实践&quot;&gt;&lt;a href=&quot;#最佳日志实践&quot; class=&quot;headerlink&quot; title=&quot;最佳日志实践&quot;&gt;&lt;/a&gt;最佳日志实践&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;日志用来记录用户操作、系统运行状态等，是一个系统的重要组成部分。然而由于日志并非系统核心功能，通常情况下并不受团队的重视。在出现问题需要通过日志来定位时，才发现日志还存在很多问题。&lt;/p&gt;
-&lt;/blockquote&gt;
+    <content type="html">&lt;h1 id=&quot;最佳日志实践&quot;&gt;&lt;a href=&quot;#最佳日志实践&quot; class=&quot;headerlink&quot; title=&quot;最佳日志实践&quot;&gt;&lt;/a&gt;最佳日志实践&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;日志用来记录用户操作、系统运行状态等，是一个系统的重要组成部分。然而由于日志并非系统核心功能，通常情况下并不受团队的重视。在出现问题需要通过日志来定位时，才发现日志还存在很多问题。&lt;/p&gt;
 &lt;p&gt;日志记录的好坏直接关系到系统出现问题时定位的速度，同时可以通过对日志的观察和分析，提前发现系统可能的风险，避免线上事故的发生。&lt;/p&gt;
 &lt;p&gt;我们在开发和运维NOS（网易对象存储，Netease Object Storage）的过程中，对整个系统的日志进行了分析优化，积累出一些经验，归纳如下。&lt;/p&gt;
 &lt;h2 id=&quot;相关问题经验整理&quot;&gt;&lt;a href=&quot;#相关问题经验整理&quot; class=&quot;headerlink&quot; title=&quot;相关问题经验整理&quot;&gt;&lt;/a&gt;相关问题经验整理&lt;/h2&gt;&lt;h3 id=&quot;1-关于日志级别&quot;&gt;&lt;a href=&quot;#1-关于日志级别&quot; class=&quot;headerlink&quot; title=&quot;1. 关于日志级别&quot;&gt;&lt;/a&gt;1. 关于日志级别&lt;/h3&gt;&lt;p&gt;我们通常使用的日志库（如log4j等），将日志基本分为以下几类（从低到高）：&lt;/p&gt;
@@ -182,8 +180,7 @@ log4j关于日志切分的相关配置，可以参考这篇文章。
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;h1 id=&quot;最佳日志实践&quot;&gt;&lt;a href=&quot;#最佳日志实践&quot; class=&quot;headerlink&quot; title=&quot;最佳日志实践&quot;&gt;&lt;/a&gt;最佳日志实践&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+      &lt;h1 id=&quot;最佳日志实践&quot;&gt;&lt;a href=&quot;#最佳日志实践&quot; class=&quot;headerlink&quot; title=&quot;最佳日志实践&quot;&gt;&lt;/a&gt;最佳日志实践&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;
     
     </summary>
     
