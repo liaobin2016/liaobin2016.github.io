@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-23T10:30:22.217Z</updated>
+  <updated>2016-04-23T11:34:11.953Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/04/23/log_best_practice/"/>
     <id>http://yoursite.com/2016/04/23/log_best_practice/</id>
     <published>2016-04-23T09:38:44.109Z</published>
-    <updated>2016-04-23T10:30:22.217Z</updated>
+    <updated>2016-04-23T11:34:11.953Z</updated>
     
     <content type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;日志用来记录用户操作、系统运行状态等，是一个系统的重要组成部分。然而由于日志并非系统核心功能，通常情况下并不受团队的重视。在出现问题需要通过日志来定位时，才发现日志还存在很多问题。&lt;/p&gt;
 &lt;p&gt;日志记录的好坏直接关系到系统出现问题时定位的速度，同时可以通过对日志的观察和分析，提前发现系统可能的风险，避免线上事故的发生。&lt;/p&gt;
@@ -184,6 +184,10 @@ log4j关于日志切分的相关配置，可以参考这篇文章。
     
     </summary>
     
+      <category term="linux" scheme="http://yoursite.com/categories/linux/"/>
+    
+    
+      <category term="后台日志" scheme="http://yoursite.com/tags/%E5%90%8E%E5%8F%B0%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
@@ -191,8 +195,8 @@ log4j关于日志切分的相关配置，可以参考这篇文章。
     <title>hexo 使用记录</title>
     <link href="http://yoursite.com/2016/04/09/myblog/"/>
     <id>http://yoursite.com/2016/04/09/myblog/</id>
-    <published>2016-04-09T06:27:53.000Z</published>
-    <updated>2016-04-09T10:25:31.417Z</updated>
+    <published>2016-04-09T06:27:53.161Z</published>
+    <updated>2016-04-23T11:32:35.457Z</updated>
     
     <content type="html">&lt;pre&gt;&lt;code&gt;//修改配置后保存
 npm install hexo-deployer-git --save
@@ -230,6 +234,10 @@ hexo d
     
     </summary>
     
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
@@ -238,7 +246,7 @@ hexo d
     <link href="http://yoursite.com/2016/04/09/hello-world/"/>
     <id>http://yoursite.com/2016/04/09/hello-world/</id>
     <published>2016-04-09T06:18:54.355Z</published>
-    <updated>2016-04-23T10:50:08.345Z</updated>
+    <updated>2016-04-23T11:34:17.298Z</updated>
     
     <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -257,6 +265,10 @@ hexo d
     
     </summary>
     
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
