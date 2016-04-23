@@ -1,66 +1,92 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   
   <title>Liaobin&#39;s BLog</title>
-  <meta name="author" content="Liaobin">
-  
-  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Liaobin's BLog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Liaobin's BLog">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Liaobin's BLog">
+<meta name="twitter:description">
   
-  <meta property="og:site_name" content="Liaobin&#39;s BLog"/>
-
+    <link rel="alternate" href="/atom.xml" title="Liaobin&#39;s BLog" type="application/atom+xml">
   
-    <meta property="og:image" content="undefined"/>
   
-
-  <link href="/favicon.png" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Liaobin&#39;s BLog" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
   
 
 </head>
 
-
 <body>
-  <header id="header" class="inner"><div class="alignleft">
-  <h1><a href="/">Liaobin&#39;s BLog</a></h1>
-  <h2><a href="/"></a></h2>
-</div>
-<nav id="main-nav" class="alignright">
-  <ul>
-    
-      <li><a href="/">Home</a></li>
-    
-      <li><a href="/archives">Archives</a></li>
-    
-  </ul>
-  <div class="clearfix"></div>
-</nav>
-<div class="clearfix"></div>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Liaobin&#39;s BLog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
 </header>
-  <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-  <article class="post">
+      <div class="outer">
+        <section id="main">
   
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-04-23T09:38:44.109Z"><a href="/2016/04/23/log_best_practice/">2016-04-23</a></time>
-      
-      
+    <article id="post-log_best_practice" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/04/23/log_best_practice/" class="article-date">
+  <time datetime="2016-04-23T09:38:44.109Z" itemprop="datePublished">2016-04-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 class="title"><a href="/2016/04/23/log_best_practice/"></a></h1>
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/23/log_best_practice/">最佳日志实践</a>
+    </h1>
   
 
-    </header>
-    <div class="entry">
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="最佳日志实践"><a href="#最佳日志实践" class="headerlink" title="最佳日志实践"></a>最佳日志实践</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>日志用来记录用户操作、系统运行状态等，是一个系统的重要组成部分。然而由于日志并非系统核心功能，通常情况下并不受团队的重视。在出现问题需要通过日志来定位时，才发现日志还存在很多问题。</p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>日志用来记录用户操作、系统运行状态等，是一个系统的重要组成部分。然而由于日志并非系统核心功能，通常情况下并不受团队的重视。在出现问题需要通过日志来定位时，才发现日志还存在很多问题。</p>
 <p>日志记录的好坏直接关系到系统出现问题时定位的速度，同时可以通过对日志的观察和分析，提前发现系统可能的风险，避免线上事故的发生。</p>
 <p>我们在开发和运维NOS（网易对象存储，Netease Object Storage）的过程中，对整个系统的日志进行了分析优化，积累出一些经验，归纳如下。</p>
 <h2 id="相关问题经验整理"><a href="#相关问题经验整理" class="headerlink" title="相关问题经验整理"></a>相关问题经验整理</h2><h3 id="1-关于日志级别"><a href="#1-关于日志级别" class="headerlink" title="1. 关于日志级别"></a>1. 关于日志级别</h3><p>我们通常使用的日志库（如log4j等），将日志基本分为以下几类（从低到高）：</p>
@@ -217,34 +243,38 @@ log4j关于日志切分的相关配置，可以参考这篇文章。
 
       
     </div>
-    <footer>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/04/23/log_best_practice/" data-id="cincypfks0002t8pmblrduor8" class="article-share-link">Share</a>
       
-        
-        
       
-      <div class="clearfix"></div>
     </footer>
   </div>
+  
 </article>
 
-
-
-
-  <article class="post">
   
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-04-09T06:27:53.000Z"><a href="/2016/04/09/myblog/">2016-04-09</a></time>
-      
-      
   
-    <h1 class="title"><a href="/2016/04/09/myblog/">hexo 使用记录</a></h1>
+    <article id="post-myblog" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/04/09/myblog/" class="article-date">
+  <time datetime="2016-04-09T06:27:53.000Z" itemprop="datePublished">2016-04-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/09/myblog/">hexo 使用记录</a>
+    </h1>
   
 
-    </header>
-    <div class="entry">
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
       
         <pre><code>//修改配置后保存
 npm install hexo-deployer-git --save
@@ -268,34 +298,38 @@ theme: light
 
       
     </div>
-    <footer>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/04/09/myblog/" data-id="cincypfkg0000t8pmad1pyfx5" class="article-share-link">Share</a>
       
-        
-        
       
-      <div class="clearfix"></div>
     </footer>
   </div>
+  
 </article>
 
-
-
-
-  <article class="post">
   
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-04-09T06:18:54.355Z"><a href="/2016/04/09/hello-world/">2016-04-09</a></time>
-      
-      
   
-    <h1 class="title"><a href="/2016/04/09/hello-world/">Hello World</a></h1>
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/04/09/hello-world/" class="article-date">
+  <time datetime="2016-04-09T06:18:54.355Z" itemprop="datePublished">2016-04-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/09/hello-world/">Hello World</a>
+    </h1>
   
 
-    </header>
-    <div class="entry">
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -309,59 +343,101 @@ theme: light
 
       
     </div>
-    <footer>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/04/09/hello-world/" data-id="cincypfko0001t8pmulze3m6s" class="article-share-link">Share</a>
       
-        
-        
       
-      <div class="clearfix"></div>
     </footer>
   </div>
+  
 </article>
 
-
-
-
-
-<nav id="pagination">
   
   
-  <div class="clearfix"></div>
-</nav></div></div>
-    <aside id="sidebar" class="alignright">
-  <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="Suche">
-    <input type="hidden" name="q" value="site:yoursite.com">
-  </form>
-</div>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"></ul>
+    </div>
+  </div>
+
 
   
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/04/23/log_best_practice/">最佳日志实践</a>
+          </li>
+        
+          <li>
+            <a href="/2016/04/09/myblog/">hexo 使用记录</a>
+          </li>
+        
+          <li>
+            <a href="/2016/04/09/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 
   
 </aside>
-    <div class="clearfix"></div>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 Liaobin<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
   </div>
-  <footer id="footer" class="inner"><div class="alignleft">
+</footer>
+    </div>
+    <nav id="mobile-nav">
   
-  &copy; 2016 Liaobin
+    <a href="/" class="mobile-nav-link">Home</a>
   
-</div>
-<div class="clearfix"></div></footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-  $('.fancybox').fancybox();
-})(jQuery);
-</script>
+<script src="/js/script.js"></script>
 
+  </div>
 </body>
 </html>

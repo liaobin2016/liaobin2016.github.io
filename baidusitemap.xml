@@ -4,11 +4,26 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/23/log_best_practice/</loc>
-    <lastmod>2016-04-23T09:48:16.752Z</lastmod>
+    <loc>http://yoursite.com/2016/04/09/hello-world/</loc>
+    <lastmod>2016-04-23T10:50:08.345Z</lastmod>
     <data>
         <display>
-        <title></title>
+        <title>Hello World</title>
+        <pubTime>2016-04-09T06:18:54.355Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/23/log_best_practice/</loc>
+    <lastmod>2016-04-23T10:30:22.217Z</lastmod>
+    <data>
+        <display>
+        <title>最佳日志实践</title>
         <pubTime>2016-04-23T09:38:44.109Z</pubTime>
         
          
@@ -25,21 +40,6 @@
         <display>
         <title>hexo 使用记录</title>
         <pubTime>2016-04-09T06:27:53.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/09/hello-world/</loc>
-    <lastmod>2016-04-09T06:18:54.355Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-04-09T06:18:54.355Z</pubTime>
         
          
            
