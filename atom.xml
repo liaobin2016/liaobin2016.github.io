@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://liaobin2016.github.io/"/>
   <updated>2016-04-26T15:00:48.220Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://liaobin2016.github.io/</id>
   
   <author>
     <name>Liaobin</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>最佳日志实践</title>
-    <link href="http://yoursite.com/2016/04/23/log_best_practice/"/>
-    <id>http://yoursite.com/2016/04/23/log_best_practice/</id>
+    <link href="http://liaobin2016.github.io/2016/04/23/log_best_practice/"/>
+    <id>http://liaobin2016.github.io/2016/04/23/log_best_practice/</id>
     <published>2016-04-23T09:38:44.109Z</published>
     <updated>2016-04-26T15:00:48.220Z</updated>
     
@@ -211,17 +211,17 @@ Thu Nov 21 11:06:12 CST 2013
     
     </summary>
     
-      <category term="linux" scheme="http://yoursite.com/categories/linux/"/>
+      <category term="linux" scheme="http://liaobin2016.github.io/categories/linux/"/>
     
     
-      <category term="后台日志" scheme="http://yoursite.com/tags/%E5%90%8E%E5%8F%B0%E6%97%A5%E5%BF%97/"/>
+      <category term="后台日志" scheme="http://liaobin2016.github.io/tags/%E5%90%8E%E5%8F%B0%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>hexo 使用记录</title>
-    <link href="http://yoursite.com/2016/04/09/myblog/"/>
-    <id>http://yoursite.com/2016/04/09/myblog/</id>
+    <link href="http://liaobin2016.github.io/2016/04/09/myblog/"/>
+    <id>http://liaobin2016.github.io/2016/04/09/myblog/</id>
     <published>2016-04-09T06:27:53.161Z</published>
     <updated>2016-04-23T11:32:35.457Z</updated>
     
@@ -261,17 +261,17 @@ hexo d
     
     </summary>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://liaobin2016.github.io/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://liaobin2016.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/04/09/hello-world/"/>
-    <id>http://yoursite.com/2016/04/09/hello-world/</id>
+    <link href="http://liaobin2016.github.io/2016/04/09/hello-world/"/>
+    <id>http://liaobin2016.github.io/2016/04/09/hello-world/</id>
     <published>2016-04-09T06:18:54.355Z</published>
     <updated>2016-04-23T11:34:17.298Z</updated>
     
@@ -292,10 +292,10 @@ hexo d
     
     </summary>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://liaobin2016.github.io/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://liaobin2016.github.io/tags/Hexo/"/>
     
   </entry>
   
