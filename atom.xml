@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liaobin2016.github.io/"/>
-  <updated>2017-03-08T13:14:56.000Z</updated>
+  <updated>2017-03-08T13:23:54.143Z</updated>
   <id>http://liaobin2016.github.io/</id>
   
   <author>
@@ -16,14 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>软件架构阅读一</title>
     <link href="http://liaobin2016.github.io/2017/03/08/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E9%98%85%E8%AF%BB%EF%BC%88%E4%B8%80%EF%BC%89/"/>
     <id>http://liaobin2016.github.io/2017/03/08/软件架构阅读（一）/</id>
     <published>2017-03-08T13:17:13.070Z</published>
-    <updated>2017-03-08T13:14:56.000Z</updated>
+    <updated>2017-03-08T13:23:54.143Z</updated>
     
-    <content type="html">&lt;p&gt;#&lt;/p&gt;
-&lt;h2 id=&quot;架构定义&quot;&gt;&lt;a href=&quot;#架构定义&quot; class=&quot;headerlink&quot; title=&quot;架构定义&quot;&gt;&lt;/a&gt;架构定义&lt;/h2&gt;&lt;p&gt;架构=组件+交互&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;架构定义&quot;&gt;&lt;a href=&quot;#架构定义&quot; class=&quot;headerlink&quot; title=&quot;架构定义&quot;&gt;&lt;/a&gt;架构定义&lt;/h2&gt;&lt;p&gt;架构=组件+交互&lt;/p&gt;
 &lt;p&gt;架构=重要决策集&lt;/p&gt;
 &lt;h2 id=&quot;子系统&quot;&gt;&lt;a href=&quot;#子系统&quot; class=&quot;headerlink&quot; title=&quot;子系统&quot;&gt;&lt;/a&gt;子系统&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;关注分离之道&lt;/li&gt;
@@ -101,12 +100,13 @@
     
     <summary type="html">
     
-      &lt;p&gt;#&lt;/p&gt;
-&lt;h2 id=&quot;架构定义&quot;&gt;&lt;a href=&quot;#架构定义&quot; class=&quot;headerlink&quot; title=&quot;架构定义&quot;&gt;&lt;/a&gt;架构定义&lt;/h2&gt;&lt;p&gt;架构=组件+交互&lt;/p&gt;
+      &lt;h2 id=&quot;架构定义&quot;&gt;&lt;a href=&quot;#架构定义&quot; class=&quot;headerlink&quot; title=&quot;架构定义&quot;&gt;&lt;/a&gt;架构定义&lt;/h2&gt;&lt;p&gt;架构=组件+交互&lt;/p&gt;
 &lt;p&gt;架构=重要决策集&lt;/p&gt;
-&lt;h2 id=&quot;子系统&quot;&gt;&lt;a href=&quot;#子
+&lt;h2 id=&quot;子系统&quot;&gt;&lt;a href=&quot;#子系统&quot; class
     
     </summary>
+    
+      <category term="笔记" scheme="http://liaobin2016.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
