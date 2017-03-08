@@ -1,0 +1,296 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Liaobin&#39;s BLog</title>
+  <meta name="author" content="Liaobin">
+  
+  <meta name="description" content="#
+架构定义架构=组件+交互
+架构=重要决策集
+子系统
+关注分离之道
+
+
+通过职责划分来分离关注点（展现层、业务层、数据层）
+通过通用型分离关注点（技术通用、领域通用、特定应用）
+根据不同粒度级别分离关注点（子系统、模块、类）
+
+
+框架与软件架构框架是通过某种回调机制进行扩展的软件系统或子系统的半成">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="Liaobin&#39;s BLog"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Liaobin&#39;s BLog" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">Liaobin&#39;s BLog</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+      <li><a href="/categories">Kategorien</a></li>
+    
+      <li><a href="/about">About</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2017-03-08T13:17:13.070Z"><a href="/2017/03/08/软件架构阅读（一）/">2017-03-08</a></time>
+      
+      
+  
+    <h1 class="title"></h1>
+  
+
+	  
+	  
+	 <div class="busuanzi_container_page_pv">
+	   <span class="head-plus">
+	   <i class="fa fa-user"></i><span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>次访问
+	   </span>
+	   <span class="head-plus">
+	   <i class="fa fa-comments"></i><span class="ds-thread-count" data-thread-key="2017/03/08/软件架构阅读（一）/"><i class="fa fa-spinner fa-spin"></i></span>条评论
+	   </span>
+	 </div>
+	 
+	  
+    </header>
+    <div class="entry">
+      
+        <p>#</p>
+<h2 id="架构定义"><a href="#架构定义" class="headerlink" title="架构定义"></a>架构定义</h2><p>架构=组件+交互</p>
+<p>架构=重要决策集</p>
+<h2 id="子系统"><a href="#子系统" class="headerlink" title="子系统"></a>子系统</h2><ol>
+<li>关注分离之道</li>
+</ol>
+<ul>
+<li>通过职责划分来分离关注点（展现层、业务层、数据层）</li>
+<li>通过通用型分离关注点（技术通用、领域通用、特定应用）</li>
+<li>根据不同粒度级别分离关注点（子系统、模块、类）</li>
+</ul>
+<ol>
+<li>框架与软件架构<br>框架是通过某种回调机制进行扩展的软件系统或子系统的半成品。<br>某种回调机制：c语言通过函数指针；面向对象使用抽象；<br>框架是软件、是半成品。<br>框架可分成基础设施框架、中间件框架、应用型框架。<br>另外一种分法：业务框架、技术框架。</li>
+</ol>
+<p>如何实现框架中的扩展点：<br>c语言：函数指针；面向对象：抽象；其他：约定的数据格式。</p>
+<p>软件架构的作用</p>
+<ul>
+<li>上承业务目标</li>
+<li>下接技术决策</li>
+<li>控制复杂性</li>
+<li>组装开发</li>
+<li>利于迭代开发和增量交付</li>
+<li>提高质量</li>
+</ul>
+<h2 id="软件架构视图"><a href="#软件架构视图" class="headerlink" title="软件架构视图"></a>软件架构视图</h2><ul>
+<li>架构师要为客户负责，满足他们的业务目标和约束条件。</li>
+<li>架构师要为用户负责，使他们关心的功能性需求和运行期质量需求得到满足。</li>
+<li>架构师必须顾及处于协议分工“下游”的开发人员</li>
+<li>架构师还必须考虑周边的管理人员，为他们进行分工管理、协调控制、评估监控等提供清晰的基础。</li>
+<li><h3 id="5种视图"><a href="#5种视图" class="headerlink" title="5种视图"></a>5种视图</h3></li>
+</ul>
+<ol>
+<li>逻辑架构 关注点是行为和职责的划分。</li>
+<li>开发架构 着重考虑开发期质量属性，比如可扩展性、可移植性、可重用性、可测试性、易理解性。</li>
+<li>运行架构 关注运行期质量属性，并发与同步问题，比如性能、可伸缩性、持续可用性、安全性、</li>
+<li>物理架构 着重考虑安装和部署需求。</li>
+<li>数据架构</li>
+</ol>
+<p>从概念性架构到实际架构，先设计概念性架构，构思关键问题的解决策略。再进行实际架构的设计，保证为开发提供足够的指导和限制。</p>
+<h2 id="如何进行成功的架构设计"><a href="#如何进行成功的架构设计" class="headerlink" title="如何进行成功的架构设计"></a>如何进行成功的架构设计</h2><ol>
+<li>全面认识需求</li>
+<li>关键需求决定架构 我们一般在项目的业务目标和核心需求达成共识之后就开始架构设计。</li>
+<li>多视图探寻架构 分而治之</li>
+<li>尽早验证架构</li>
+</ol>
+<h2 id="软件架构要到什么程度"><a href="#软件架构要到什么程度" class="headerlink" title="软件架构要到什么程度"></a>软件架构要到什么程度</h2><ol>
+<li>分而治之。<br>按问题深度分而治之（比如接口与实现分离）；<br>按问题广度分而治之（MVC）；</li>
+<li>架构设计和详细设计分离。</li>
+<li>软件架构是团队开发的基础。团队开发具体技术复杂性和管理复杂性双重困难。不同的模块分给不同的小组去开发，而软件架构方案在这些小组中扮演“桥梁”和“合作契约”的作用，提供足够的的开发指导和限制。</li>
+<li>软件架构要到什么程度。由于项目的不同、开发团队情况的不同，软件架构的设计程度会有不同；软件架构要为开发人员提供足够的的指导和限制。</li>
+</ol>
+<h3 id="高来高去式软件架构的特征"><a href="#高来高去式软件架构的特征" class="headerlink" title="高来高去式软件架构的特征"></a>高来高去式软件架构的特征</h3><ol>
+<li>缺失重要架构视图</li>
+<li>浅尝辄止，不够深入。架构设计过于笼统，停留在概念性架构设计层面。</li>
+<li>名不符实的分层架构。仅用分层来指责划分，而并没有规划层次之间的交互接口和交互机制的情况。（举例；公司架构图很清晰，依然管理混乱）</li>
+</ol>
+<h2 id="软件架构设计过程"><a href="#软件架构设计过程" class="headerlink" title="软件架构设计过程"></a>软件架构设计过程</h2><ol>
+<li>概念化设计阶段 主要针对项目目标、业务范围、主要功能、成功要素等进行构思并达成一致。小型的可以以《业务目标列表》；大型的项目以《愿景与范围文档》《市场需求文档》《项目立项书》</li>
+<li>分析阶段 明确需求，以《软件需求规格说明书》的形式记录。包含软件系统必须完成的功能，又包含应满足那些质量属性，还需明确对设计有哪些约束性需求。</li>
+</ol>
+<ul>
+<li>需求分析</li>
+<li>领域建模</li>
+</ul>
+<ol>
+<li>架构设计阶段 软件架构从系统如何规划、如何开发、如何运行等角度揭示了软件系统的结构和机制，为后面的具体开发提供足够的指导和限制。</li>
+</ol>
+<ul>
+<li>概念性架构，包含确认关键需求；概念性架构设计</li>
+<li>实际结构，包含细化架构；验证架构</li>
+</ul>
+<ol>
+<li>并行开发和测试阶段</li>
+<li>验收与交付阶段</li>
+</ol>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+        
+
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2017/03/08/软件架构阅读（一）/" data-title="" data-url="http://liaobin2016.github.io/2017/03/08/软件架构阅读（一）/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'liaobin2016'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//baidu.com/baidu" method="get" accept-charset="utf-8">
+    <input type="search" name="word" results="0" placeholder="Search">
+    <input type="hidden" name="si" value="liaobin2016.github.io">
+    <input name=tn type=hidden value="bds">
+	<input name=cl type=hidden value="3">
+	<input name=ct type=hidden value="2097152">
+	<input name=s type=hidden value="on">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">Categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/Hexo/">Hexo</a><small>2</small></li>
+  
+    <li><a href="/categories/linux/">linux</a><small>1</small></li>
+  
+    <li><a href="/categories/学习方法/">学习方法</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">Tags</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/Hexo/">Hexo</a><small>2</small></li>
+  
+    <li><a href="/tags/后台日志/">后台日志</a><small>1</small></li>
+  
+    <li><a href="/tags/隐喻/">隐喻</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  <div class="widget tag">
+<h3 class="title">友情链接</h3>
+<ul class="entry">
+<li><a href="http://ijiaober.Github.io/" title="ijiaober's Blog">GoonX</a></li>
+<li><a href="http://timyang.net/" title="后端技术 by Tim Yang">后端技术 by Tim Yang</a></li>
+</ul>
+</div>
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2017 Liaobin
+  
+<span id="busuanzi_container_site_pv">
+     <i class="fa fa-flag"></i>    你是第<span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>个到访的小伙伴
+</span>
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?9694826e5709f40f27337a4909138ef8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+</body>
+</html>
